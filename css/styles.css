@@ -393,6 +393,7 @@ h6, .h6 {
 .lead {
   font-size: 1.25rem;
   font-weight: 300;
+  text-align:center;
 }
 
 .display-1 {
@@ -430,6 +431,12 @@ small,
 .small {
   font-size: 80%;
   font-weight: 400;
+}
+
+.couses{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 mark,
@@ -4004,6 +4011,9 @@ input[type=button].btn-block {
   font-size: 1.25rem;
   line-height: inherit;
   white-space: nowrap;
+  background-color:#8b8181;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
 }
 .navbar-brand:hover, .navbar-brand:focus {
   text-decoration: none;
@@ -10121,7 +10131,7 @@ h3 {
   }
   #mainNav .navbar-nav > li.nav-item > a.nav-link.active:active, #mainNav .navbar-nav > li.nav-item > a.nav-link.active:focus, #mainNav .navbar-nav > li.nav-item > a.nav-link.active:hover {
     color: #fff;
-    background: #1abc9c;
+    background: red;
   }
 
   #mainNav.navbar-shrink {
